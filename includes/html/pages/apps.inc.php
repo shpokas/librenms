@@ -646,6 +646,15 @@ $graphs['i2pd'] = [
     'peers',
     'total_bytes',
 ];
+$graphs['dovecot'] = [
+    'connections',
+    'auth',
+    'auth_duration',
+    'imap',
+    'smtp',
+    'delivery',
+    'sieve',
+];
 
 echo '<div class="panel panel-default">';
 echo '<div class="panel-heading">';
